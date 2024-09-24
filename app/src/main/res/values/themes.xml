@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FitnessPlus" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorOnPrimary">@color/blue</item>
+        <item name="colorPrimarySurface">@color/ash</item>
+        <item name="colorPrimary">@color/black</item>
+
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnSecondary">@color/green</item>
+        <item name="colorSecondaryVariant">@color/dark_ash</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ash</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FitnessPlus" parent="Base.Theme.FitnessPlus" />
+</resources>
