@@ -34,9 +34,9 @@ android {
         jvmTarget = "1.8"
     }
 
-    //buildFeatures{
-        //viewBinding true
-    //}
+    buildFeatures{
+   //     viewBinding true
+    }
 }
 
 dependencies {
@@ -49,9 +49,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    //implementation(com.github.florent37:runtime-permission:1.1.2)
-    //implementation(com.github.bumptech.glide:glide:4.10.0)
-    //debugImplementation(com.)
-    //implementation(androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1)
-    //implementation(androidx.lifecycle:lifecycle-runtime-ktx:2.3.1)
+    //implementation 'com.github.florent37:runtime-permission:1.1.2'
+    //implementation 'com.github.bumptech.glide:glide:4.10.0'
+    //debugImplementation 'com.'
+    //implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+    //implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
 }

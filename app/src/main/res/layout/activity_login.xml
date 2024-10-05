@@ -21,17 +21,17 @@
 
     <TextView
         android:id="@+id/tagline"
-        android:layout_width="130dp"
-        android:layout_height="31dp"
+        android:layout_width="155dp"
+        android:layout_height="32dp"
         android:text="Do it for YOU"
         android:textColor="@color/green"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
+        app:layout_constraintVertical_bias="0.238" />
 
     <EditText
         android:id="@+id/edtUsername"

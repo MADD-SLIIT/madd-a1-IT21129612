@@ -13,9 +13,21 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".activity.LoginActivity"
-            android:theme="@style/Theme.FitnessPlus"
+            android:name=".activity.MealActivity"
             android:exported="false" />
+        <activity
+            android:name=".activity.WelcomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.WorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FitnessPlus" />
         <activity
             android:name=".SplashScreen"
             android:exported="true">
